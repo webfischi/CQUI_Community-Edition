@@ -69,6 +69,9 @@ INSERT OR REPLACE INTO CQUI_Settings -- Don't touch this line!
         --('CQUI_NotificationTradeDeal', 1), -- Notification - trade deal expired (reserved)
         --('CQUI_NotificationPopulation', 0), -- Notification - population growth (reserved)
         --('CQUI_NotificationCityBorder', 0), -- Notification - city border growth (reserved)
+        ('CQUI_BuilderLensDisableNothingPlot', 1), -- When enabled, do not show the "nothing to do here" plot with the Builder Lens
+        ('CQUI_BuilderLensDisableDangerousPlot', 1), -- When enabled, do not highlight plots with the builder lens that are near an enemy 
+        ('CQUI_AutoapplyScoutLensExtra', 1), -- When enabled, auto-apply the Scout lens for every military unit
         ('CQUI_ShowDebugPrint', 0); -- Shows print in the console
 /*
     ┌────────────────────────────────────────────────────────────────────────────────────────────┐
